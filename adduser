@@ -4,7 +4,7 @@
 # by Hrvoje Dogan <hdogan@student.math.hr>, Dec 1995.
 #
 # Japanese enhancements by kojima <isle@st.rim.or.jp> Aug 1997
-# Time-stamp: <2018-03-30 21:40:43 karma>
+# Time-stamp: <2018-03-30 21:47:02 karma>
 # Time-stamp: <2011-01-05 01:24:06 plamo>
 # Time-stamp: <2011-07-25 19:03:24 karma>
 # Time-stamp: <2011-10-08 13:32:46 tamuki>
@@ -444,9 +444,6 @@ do
     sed -e "s/@LOCALE@/${LOCALE[$LOC]}/" \
 	"$SKELDIR"/Source/"$f" > "$SKELDIR"/Default/"$f"
 done
-
-
-exit
 
 #新規アカウント作成中...
 msg_creating
